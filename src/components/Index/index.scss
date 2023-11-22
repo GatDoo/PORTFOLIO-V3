@@ -1,0 +1,41 @@
+.index {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    transform: rotate(-90deg);
+    position: fixed;
+    left: -200px;
+    top: 50%;
+    bottom: 50%;
+    font-size: 20px;
+
+
+    @keyframes bounce {
+        0%, 100% {
+          transform: translateX(-50%) translateY(0);
+        }
+        50% {
+          transform: translateX(-50%) translateY(-5px); /* ajustez pour l'effet de "bounce" */
+        }
+      }
+
+    a {
+        position: relative;
+    }
+
+    a:hover::after {
+        opacity: 1; /* apparaît */
+        animation: bounce 1s infinite; /* animation en boucle */
+      }
+
+    a::after {
+        content: '↓'; /* caractère de la flèche */
+        position: absolute;
+        left: 50%;
+        bottom: -50px; /* ajustez selon la position désirée */
+        transform: translateX(-50%);
+        opacity: 0; /* commence caché */
+        transition: opacity 0.3s ease;
+      }
+}
+

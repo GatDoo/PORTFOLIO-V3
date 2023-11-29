@@ -30,6 +30,7 @@ function Travaux() {
                             <a href="https://github.com/GatDoo/Portfolio-architecte-sophie-bluel-master" target="_blank"><i className="fa-brands fa-github"></i></a>
                         </div>
                     </div>
+                    <i className="fa-solid fa-arrow-turn-down"></i>
                 </div>
                 <div className={`card ${isFlipped.ohMyFood ? "flipped" : ""}`} onClick={() => handleFlip("ohMyFood")}>
                     <div className="card-inner">
@@ -43,6 +44,7 @@ function Travaux() {
                             <a href="https://github.com/GatDoo/Oh-My-Food" target="_blank"><i className="fa-brands fa-github"></i></a>
                         </div>
                     </div>
+                    <i className="fa-solid fa-arrow-turn-down"></i>
                 </div>
                 <div className={`card ${isFlipped.sophie ? "flipped" : ""}`} onClick={() => handleFlip("sophie")}>
                     <div className="card-inner">
@@ -56,6 +58,7 @@ function Travaux() {
                             <a href="https://github.com/GatDoo/Portfolio-architecte-sophie-bluel-master" target="_blank"><i className="fa-brands fa-github"></i></a>
                         </div>
                     </div>
+                    <i className="fa-solid fa-arrow-turn-down"></i>
                 </div>
             </div>
         </article>

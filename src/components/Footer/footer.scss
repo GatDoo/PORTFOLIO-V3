@@ -31,3 +31,13 @@ footer {
         }
     }
 }
+
+@media (max-width: 1000px) {
+    footer {
+        .contact {
+            flex-direction: column;
+            gap: 10px;
+            max-width: 100%;
+        }
+    }
+}

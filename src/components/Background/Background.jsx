@@ -12,11 +12,11 @@ const Background = () => {
             id="tsparticles"
             init={particlesInit}
             options={{
-                fpsLimit: 60,
+                fpsLimit: 30,
                 interactivity: {
                     events: {
                         onHover: {
-                            enable: true,
+                            enable: false,
                             mode: "repulse",
                         },
                         onClick: {
@@ -53,12 +53,12 @@ const Background = () => {
                         width: 1
                     },
                     collisions: {
-                        enable: true
+                        enable: false
                     },
                     move: {
                         direction: "none",
                         enable: true,
-                        outMode: "bounce",
+                        // outMode: "bounce",
                         random: false,
                         speed: 2,
                         straight: false

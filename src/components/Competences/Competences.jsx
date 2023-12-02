@@ -12,7 +12,7 @@ function Competences() {
             <li>CSS3</li>
             <li>JavaScript</li>
             <li>React</li>
-            <li>React Native</li>
+            <li>SASS</li>
           </ul>
         </div>
         <div className="competences-container-3">
@@ -23,6 +23,10 @@ function Competences() {
             <li>Visual Studio Code</li>
             <li>Postman</li>
             <li>MongoDB</li>
+            <li>Redux</li>
+            <li>LUA</li>
+            <li>SWAGGER</li>
+            <li>JEST</li>
           </ul>
         </div>
       </div>

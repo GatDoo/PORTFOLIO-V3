@@ -27,7 +27,7 @@ function Travaux() {
                         </div>
                         <div className="card-back">
                             <a href="" target="_blank"><i className="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            <a href="https://github.com/GatDoo/Portfolio-architecte-sophie-bluel-master" target="_blank"><i className="fa-brands fa-github"></i></a>
+                            <a href="https://github.com/GatDoo/Booki" target="_blank"><i className="fa-brands fa-github"></i></a>
                         </div>
                     </div>
                     <i className="fa-solid fa-arrow-turn-down"></i>
